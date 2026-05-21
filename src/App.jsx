@@ -1,4 +1,4 @@
-import FamilyTribute from "../family/FamilyTribute";
+import FamilyTribute from "../FamilyTribute";
 
 const App = () => {
   return (
