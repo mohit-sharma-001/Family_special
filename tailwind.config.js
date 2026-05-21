@@ -2,14 +2,10 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", // <--- Yeh line check kar, ismein galti hoti hai
   ],
   theme: {
-    extend: {
-      boxShadow: {
-        "soft-glow": "0 30px 90px rgba(177,134,106,0.14)"
-      }
-    }
+    extend: {},
   },
   plugins: [],
-};
+}
