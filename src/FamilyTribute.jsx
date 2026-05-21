@@ -219,7 +219,7 @@ const playTypewriterSound = (isMuted) => {
   }
 };
 
-export default function App() {
+export function FamilyTribute() {
   const [stage, setStage] = useState(1);
   // Line 264 ke aas-paas jahan baaki states hain
     const [isTypingDone, setIsTypingDone] = useState(false);
