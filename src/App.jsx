@@ -1,7 +1,11 @@
-export default function App() {
+import FamilyTribute from "./FamilyTribute";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold text-red-600">
-      Test CSS Working!
-    </h1>
-  )
-}
+    <div className="min-h-screen bg-[#FFFDF6] text-slate-900">
+      <FamilyTribute />
+    </div>
+  );
+};
+
+export default App;
